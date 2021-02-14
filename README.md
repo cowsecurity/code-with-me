@@ -21,4 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ...   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
