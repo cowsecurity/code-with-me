@@ -1,5 +1,5 @@
 .container-fluid
-  %h1 Home Page(landing page)
+  %h1 “To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.”
   %i.fab.fa-github
   = link_to 'Privacy Policy', privacy_policy_path, class: "btn btn-lg btn-warning"
   = link_to privacy_policy_path do
@@ -7,3 +7,7 @@
   %br
   = link_to  privacy_policy_path do
     .fa.fa-home
+
+  = link_to  courses_path, class:'btn btn-success' do
+    .fa.fa-book
+    Courses
